@@ -220,11 +220,18 @@ export default function AboutContact({ reviews }: AboutContactProps) {
                     Our shop is conveniently situated right on Mushaf Ali Mir road with beautiful spacious parking and immediate access.
                   </p>
                 </div>
-                <div className="h-28 bg-stone-200/50 rounded-xl flex flex-col items-center justify-center border border-dashed border-stone-200 relative overflow-hidden">
-                  <div className="absolute inset-0 opacity-20 bg-[radial-gradient(#d6d3d1_1px,transparent_1px)] [background-size:16px_16px]" />
-                  <MapPin className="w-8 h-8 text-amber-700 animate-bounce mb-1" />
-                  <span className="text-[11px] font-bold text-stone-500">Sargodha Cantt, Punjab, Pakistan</span>
-                </div>
+                <div className="h-28 rounded-xl overflow-hidden border border-stone-200 relative">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13528.736023766873!2d72.66955745541992!3d32.037210500000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3921792dff03997b%3A0xa18b5291b262afa8!2sTU%20%26%20ME%20MART%20AND%20BAKERS!5e0!3m2!1sen!2s!4v1783265931985!5m2!1sen!2s"
+      width="100%"
+      height="100%"
+      style={{ border: 0 }}
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="strict-origin-when-cross-origin"
+      title="TU & ME Mart and Bakers Location"
+    />
+  </div>
               </div>
             </div>
 
